@@ -21,4 +21,4 @@ for png in pngs:
 
 for name, pngs in group.items():
     print(name)
-    iio.imwrite(path / f"{name}.gif", pngs, loop=0, fps=5)
+    iio.imwrite(path / f"{name}.gif", pngs, loop=0, fps=2)
